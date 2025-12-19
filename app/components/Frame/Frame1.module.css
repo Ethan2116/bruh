@@ -1,0 +1,38 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.title {
+    width: 771px;
+    margin: 0;
+    font-size: 90px;
+    font-weight: 800;
+    line-height: 1;
+}
+
+.titleGradient {
+    background: linear-gradient(97deg, #9b8595, #ffffff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.subtitle {
+    width: 760px;
+    color: #a7a5a6;
+    line-height: 1.2;
+}
+
+.button {
+    width: 120px;
+    height: 43px;
+    background: #a41045;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}

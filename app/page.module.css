@@ -1,0 +1,14 @@
+.page {
+    min-height: 100vh;
+    background:
+        radial-gradient(900px 600px at 60% 40%, rgba(255, 183, 77, .55), transparent 60%),
+        radial-gradient(700px 600px at 75% 35%, rgba(167, 77, 255, .55), transparent 65%),
+        radial-gradient(900px 700px at 90% 115%, rgba(0, 0, 0, .95), rgba(0, 0, 0, 1)),
+        #000;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 24px;
+}

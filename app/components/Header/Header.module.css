@@ -1,0 +1,106 @@
+.wrap {
+    width: 100%;
+    padding-top: 18px;
+}
+
+.bar {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 14px 18px;
+    border-radius: 999px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+
+    /* glassy pill */
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    min-width: 140px;
+}
+
+.logo {
+    color: rgba(255, 255, 255, 0.95);
+    font-size: 34px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    font-weight: 800;
+    /* if you want a more script-like logo later, we can add a font */
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+.link {
+    color: rgba(255, 255, 255, 0.72);
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.link:hover {
+    color: rgba(255, 255, 255, 0.92);
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    min-width: 180px;
+    justify-content: flex-end;
+}
+
+.login {
+    color: rgba(255, 255, 255, 0.72);
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.login:hover {
+    color: rgba(255, 255, 255, 0.92);
+}
+
+.signup {
+    height: 32px;
+    padding: 0 14px;
+    border-radius: 999px;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    background: rgba(255, 255, 255, 0.10);
+    color: rgba(255, 255, 255, 0.92);
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.signup:hover {
+    background: rgba(255, 255, 255, 0.14);
+}
+
+/* simple responsive: hide center nav on small screens */
+@media (max-width: 760px) {
+    .nav {
+        display: none;
+    }
+
+    .left {
+        min-width: auto;
+    }
+
+    .right {
+        min-width: auto;
+    }
+}

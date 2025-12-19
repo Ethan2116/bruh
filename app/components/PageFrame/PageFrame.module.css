@@ -1,0 +1,23 @@
+.page {
+    min-height: 100vh;
+
+    background:
+        radial-gradient(900px 600px at 70% 40%, rgba(255, 183, 77, 0.55), transparent 60%),
+        radial-gradient(700px 600px at 92% 35%, rgba(167, 77, 255, 0.55), transparent 65%),
+        radial-gradient(900px 700px at 50% 115%, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 1)),
+        #000;
+}
+
+
+.container {
+    max-width: 1200px;
+    /* PAGE LIMIT */
+    margin: 0 auto;
+    /* CENTER */
+    padding: 80px 24px;
+    /* SPACING */
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+    /* SPACE BETWEEN SECTIONS */
+}
